@@ -10,44 +10,9 @@ $(document).ready(function(){
 })
 
 
+$('.dropify').dropify();
 
 
-function addDetails(){
- if(validateFirstName){
-     if(validateFullName){
-         //post it 
-         postData();
-     }
-     else{
-         //display error message
-     }
- }
- else {
-     //display error message
- }
-}
-
-
-function validateFirstName(){
-   var firstName = $()
-}
-
-function validateFullName(){
-     return true;
-}
-
-function displayErrorMsgFullName(){
-
-}
-
-function displayErrorMsgFirstName(){
-    $('span').show();
-    
-
-}
-
-    
-
-function postData(){
+function onSubmit(){
 
 }
